@@ -25,15 +25,15 @@ def processcsv(file):
 
     # define dictionary for HTML code of text colours
     thisdict = {
-    "1": """<span style="background-color: Tomato">""",
-    "2": """<span style="background-color: SkyBlue">""",
-    "3": """<span style="background-color: BurlyWood">""",
-    "4": """<span style="background-color: MediumOrchid">""",
-    "5": """<span style="background-color: Chartreuse">""",
-    "6": """<span style="background-color: plum">""",
-    "7": """<span style="background-color: gold">""",
-    "8": """<span style="background-color: red">""",
-    "9": """<span style="background-color: royalblue">"""
+    "1": """<span style="background-color: Red">""",
+    "2": """<span style="background-color: Orange">""",
+    "3": """<span style="background-color: Yellow">""",
+    "4": """<span style="background-color: Green">""",
+    "5": """<span style="background-color: Cyan">""",
+    "6": """<span style="background-color: Blue">""",
+    "7": """<span style="background-color: Purple">""",
+    "8": """<span style="background-color: Pink">""",
+    "9": """<span style="background-color: DarkGreen">"""
     }
 
     # prepare HTML code for text bssed on event_type id and concatenate to "text"
@@ -97,7 +97,7 @@ def processcsv(file):
     Html_file.close()
 
 output_folder = Path.cwd() / "./phase_2_output"
-template = Path.cwd() / "./template-v2.html"
+template = Path.cwd() / "./template-v2p2.html"
 input_folder = Path.cwd() / "./phase_2_input"
 filenames = find_csv_filenames(input_folder)
 
