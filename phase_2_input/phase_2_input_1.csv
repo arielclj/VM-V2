@@ -1,0 +1,5 @@
+paragraph,paragraph_idx,event_type
+"Lorem ipsum dolor sit amet, consectetur.",0,This is Event Type 2
+"adipiscing elit, sed do eiusmod tempor incididunt.",1,None
+At ultrices mi tempus imperdiet.,2,This is Event Type 9
+Senectus et netus et malesuada fames ac turpis. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt.,3,None
